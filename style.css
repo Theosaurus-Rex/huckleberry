@@ -1,3 +1,15 @@
+:root {
+  --primary-green: hsl(160deg, 100%, 30%);
+  --secondary-gold-light: hsl(45deg, 100%, 50%);
+  --secondary-gold-dark: hsl(45deg, 100%, 40%);
+  --gray-black: hsl(0deg, 0%, 0%);
+  --gray-very-dark: hsl(0deg, 0%, 10%);
+  --gray-dark: hsl(0deg, 0%, 30%);
+  --gray-medium: hsl(0deg, 0%, 40%);
+  --gray-light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
@@ -9,4 +21,3 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
