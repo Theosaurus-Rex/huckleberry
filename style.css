@@ -21,3 +21,65 @@ body {
   padding: 0;
 }
 
+h1, h2, h3 {
+  margin: 0;
+}
+
+header {
+  border-bottom: 8px solid var(--gray-medium);
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.intro-chunk {
+  padding: 96px 0 48px;
+  max-width: 400px;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+
+.intro-chunk strong {
+  color: var(--primary-green);
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+main {
+  background-color: var(--gray-light);
+  padding: 96px 0;
+}
+
+.card {
+  background-color: var(--white);
+  padding: 24px;
+  margin: -24px;
+  border-bottom: 8px solid var(--gray-medium);
+}
+
+.card p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.indented-heading {
+  font-size: 1.5rem;
+  background: var(--secondary-gold-light);
+  margin-left: -32px;
+  margin-top: -16px;
+  padding: 16px 32px;
+  width: fit-content;
+  border-bottom: 8px solid var(--secondary-gold-dark);
+}
